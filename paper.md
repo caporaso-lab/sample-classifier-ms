@@ -1,36 +1,36 @@
 ﻿---
 title: ‘q2-sample-classifier: machine-learning tools for microbiome classification and regression’
 tags:
-  - microbiome
-  - supervised learning
-  - amplicon sequencing
-  - metagenomics
+- microbiome
+- supervised learning
+- amplicon sequencing
+- metagenomics
 authors:
- - name: Nicholas A Bokulich
-   orcid: 0000-0002-1784-8935
-   affiliation: 1
- - name: Matthew Dillon
-   orcid: 0000-0002-7713-1952
-   affiliation: 1
- - name: Evan Bolyen
-   orcid: 0000-0002-5362-6782
-   affiliation: 1
- - name: Benjamin D Kaehler
-   orcid: 0000-0002-5318-9551
-   affiliation: 2
- - name: Gavin A Huttley
-   orcid: 0000-0001-7224-2074
-   affiliation: 2
- - name: J Gregory Caporaso
-   orcid: 0000-0002-8865-1670
-   affiliation: “1, 3”
+- name: Nicholas A Bokulich
+  orcid: 0000-0002-1784-8935
+  affiliation: 1
+- name: Matthew Dillon
+  orcid: 0000-0002-7713-1952
+  affiliation: 1
+- name: Evan Bolyen
+  orcid: 0000-0002-5362-6782
+  affiliation: 1
+- name: Benjamin D Kaehler
+  orcid: 0000-0002-5318-9551
+  affiliation: 2
+- name: Gavin A Huttley
+  orcid: 0000-0001-7224-2074
+  affiliation: 2
+- name: J Gregory Caporaso
+  orcid: 0000-0002-8865-1670
+  affiliation: “1, 3”
 affiliations:
- - name: The Pathogen and Microbiome Institute, Northern Arizona University, Flagstaff, AZ, USA
-   index: 1
- - name: Research School of Biology, Australian National University, Canberra, Australia
-   index: 2
- - name: Department of Biological Sciences, Northern Arizona University, Flagstaff, AZ, USA
-   index: 3
+- name: The Pathogen and Microbiome Institute, Northern Arizona University, Flagstaff, AZ, USA
+  index: 1
+- name: Research School of Biology, Australian National University, Canberra, Australia
+  index: 2
+- name: Department of Biological Sciences, Northern Arizona University, Flagstaff, AZ, USA
+  index: 3
 date: 8 August 2018
 bibliography: references.bib
 ---
@@ -40,7 +40,7 @@ q2-sample-classifier is a plugin for the [QIIME 2](https://qiime2.org/) microbio
 
 Microbiome studies often aim to predict outcomes or differentiate samples based on their microbial compositions, tasks that can be efficiently performed by SL methods [@Knights2011-ow]. The goal of SL is to train a machine learning model on a set of samples with known target values/class labels, and then use that model to predict the target values/class membership of additional, unlabeled samples. The ability to categorize new samples, as opposed to describing the structure of existing data, extends itself to many useful applications, e.g., the prediction of disease/susceptibility [@Yazdani2016-ih,Schubert2015-da,Pasolli2016-qi], crop productivity [@Chang2017-bq], wine chemical composition [@Bokulich2016-ea], or sample collection site [@Bokulich2013-go]; the identification of mislabeled samples in microbiome data sets [@Knights2011-ow]; or tracking microbiota-for-age development in children [@Subramanian2014-ch,Bokulich2016-wa].
 
-We describe [q2-sample-classifier](https://github.com/qiime2/q2-sample-classifier), a [QIIME 2 plugin](https://qiime2.org/) to support SL tools for pattern recognition in microbiome data. This plugin provides several SL methods, automatic parameter tuning, feature selection, and various learning algorithms. The visualizations generated provide portable, shareable reports, publication-ready figures, and integrated data provenance. Additionally, integration as a QIIME 2 plugin streamlines data handling and supports the use of multiple user interfaces, including a graphical user interface ((q2studio)[https://github.com/qiime2/q2studio]), facilitating its use for non-expert users. The plugin is freely available under the BSD-3-Clause license at https://github.com/qiime2/q2-sample-classifier.
+We describe [q2-sample-classifier](https://github.com/qiime2/q2-sample-classifier), a [QIIME 2 plugin](https://qiime2.org/) to support SL tools for pattern recognition in microbiome data. This plugin provides several SL methods, automatic parameter tuning, feature selection, and various learning algorithms. The visualizations generated provide portable, shareable reports, publication-ready figures, and integrated data provenance. Additionally, integration as a QIIME 2 plugin streamlines data handling and supports the use of multiple user interfaces, including a graphical user interface ([q2studi0](https://github.com/qiime2/q2studio])), facilitating its use for non-expert users. The plugin is freely available under the BSD-3-Clause license at https://github.com/qiime2/q2-sample-classifier.
 
 The q2-sample-classifier plugin is written in Python 3.5 and employs pandas [@McKinney2010-lu] and numpy [@Van_der_Walt2011-rv] for data manipulation, scikit-learn [@Pedregosa2011-vr] for SL and feature selection algorithms, scipy [@scipy] for statistical testing, and matplotlib [@Hunter2007-vy] and seaborn [@michael_waskom_2017_883859] for data visualization.
 
