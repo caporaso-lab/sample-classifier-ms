@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'q2-sample-classifier: machine-learning tools for microbiome classification and regression'
 tags:
 - microbiome
