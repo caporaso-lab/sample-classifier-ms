@@ -23,7 +23,7 @@ authors:
   affiliation: 2
 - name: J Gregory Caporaso
   orcid: 0000-0002-8865-1670
-  affiliation: “1, 3”
+  affiliation: "1, 3"
 affiliations:
 - name: The Pathogen and Microbiome Institute, Northern Arizona University, Flagstaff, AZ, USA
   index: 1
